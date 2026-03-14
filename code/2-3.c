@@ -2,9 +2,9 @@
 
 int main()
 {
-    usigned int x = 0x12345678;
+    unsigned int x = 0x12345678;
 
-    usinged char* addr = (unsigned char*)8x;
+    unsigned char* addr = (unsigned char*)&x;
 
     printf("%x\n", *addr);
     printf("%x\n", *(addr + 1));
